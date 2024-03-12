@@ -48,7 +48,8 @@ const Header = ({ onSidebarOpen }) => {
   const handleClose = () => {
     setOpen(false);
   };
-
+  return (<div></div>)
+    
   return (
     <>
       <AppBar

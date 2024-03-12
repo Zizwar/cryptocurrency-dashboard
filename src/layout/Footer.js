@@ -12,7 +12,7 @@ import { useTheme } from '@mui/material/styles';
 
 const Footer = () => {
   const theme = useTheme();
-
+return (<div></div>)
   return (
     <>
       <Box

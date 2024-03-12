@@ -17,9 +17,9 @@ const App = () => {
       toggleColorMode: () => {
         window.localStorage.setItem(
           'themeMode',
-          mode === 'dark' ? 'light' : 'dark'
+          mode !== 'dark' ? 'light' : 'dark'
         );
-        setMode((prevMode) => (prevMode === 'dark' ? 'light' : 'dark'));
+        setMode((prevMode) => (prevMode !== 'dark' ? 'light' : 'dark'));
       },
     }),
     [mode]
